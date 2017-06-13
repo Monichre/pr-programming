@@ -32,9 +32,9 @@ body{
 
 #on-scroll-space li {
 	list-style: none;
-	padding-left: 17px;
-	padding-right: 16px;
-	float:left;
+	padding-left: 15px;
+	padding-right: 30px;
+	float:right;
 	font-size:14px;
 	margin-top: 15px;
 }
