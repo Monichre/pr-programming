@@ -68,11 +68,10 @@ $(document).ready(function(){
             $('#on-scroll-space').animate({
                 height: '50px'
             });
+            $('#on-scroll-space').css('z-index', '1000');
         } else {
             $('#nav').removeClass('menu-scroll').addClass('menu');
-            // $('#on-scroll-space').animate({
-            //     height: '0px'
-            // });
+            $('#on-scroll-space').css('z-index', '0');
         }
 
     })

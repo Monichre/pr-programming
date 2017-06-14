@@ -108,18 +108,22 @@
                     <div class="row break-text diving-div-styles" id="coaches-scroll">
                         <div class="col-sm-12">
                             <h3>Coaches Corner</h3>
-                            <p>Meet our head coach and CEO Paul Roller</p>
+                            <p>Everything you need to know about the people who run the show</p>
                         </div>
                     </div>
 
                     <!-- meet paul image -->
                     <div class="col-sm-12 hover-me">
-                        <img src="image/cfo-image.jpg" class="img-responsive" id="meet-paul-img">
-                        <div class="bio-overlay">
+
+                        <!-- <img src="image/cfo-image.jpg" class="img-responsive" id="meet-paul-img"> -->
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mA06NsMb0-M" frameborder="0" muted autoplay poster="image/cfo-image.jpg"></iframe>
+
+                        <!-- <div class="bio-overlay">
                             <div class="bio-text">
                                 Paul grew up involved with sports and fitness throughout his teenage year and decided to pursue a career in the fitness industry. He received a Bachelor’s degree in Exercise Science and a Master’s in Exercise Physiology, and during that time, he fell in love with coaching and training for CrossFit, to which he has been dedicated to ever since. Paul has an obsessive passion for learning the latest techniques in strength and conditioning and has successfully applied them to his training programs. Coming from a heavy research-based education, he believes that anecdotal evidence is simply not good enough. That’s why Paul bases his knowledge on scientifically researched and well-tested protocols. Paul spends his time as a coach at CrossFit Outbreak, coaching classes and designing training programs for general population clients and competitive athletes alike. Paul himself is a high-level competitive CrossFit athlete, so he understands what it’s like to be the athlete and the coach, which he believes his personal experience with the challenges athletes are faced with daily gives him an advantage.
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                      <!-- credentials-->
@@ -148,23 +152,28 @@
                     </div>
 
                     <!-- shadowed images of paul -->
+
+                    <div>
+                        <h1 class="div-header-text">Services and Programming</h1>
+                    </div>
+
                     <div class="row" id="paul-gallery">
                         <div class="col-sm-4 hover-me-tender">
                             <img class="img-responsive" src="image/pro-2.jpg">
                             <div class="overlay">
-                                <div class="text">TRAIN</div>
+                                <div class="text">TRAIN<br>Up to date on the latest techniques in strength and conditioning to create the more efficent physical programming</div>
                             </div>
                         </div>
                         <div class="col-sm-4 hover-me-tender">
                             <img class="img-responsive" src="image/pro-4.jpg">
                             <div class="overlay">
-                                <div class="text">EDUCATE</div>
+                                <div class="text">EDUCATE<br>Scientific researched and well-tested protocols to create personal nutrtion plans that deliver results</div>
                             </div>
                         </div>
                         <div class="col-sm-4 hover-me-tender">
                             <img class="img-responsive" src="image/pro-6.jpg">
                             <div class="overlay">
-                                <div class="text">INSPIRE</div>
+                                <div class="text">INSPIRE<br>Connecting the dots between where you are now and where you want to be.</div>
                             </div>
                         </div>
                     </div>
@@ -283,12 +292,13 @@
                     <!-- the actual form -->
                     <div class="row">
                         <div class="col-sm-8" id="form">
-                            <form>
-                                <input type="text" class="col-xs-12 name" id='name' placeholder='Name'>
-                                <input type="text" class="col-xs-12 Email" id='email' placeholder='Email'>
-                                <input type="text" class="col-sm-12 col-xs-12 Subject" id='subject' placeholder='Subject'/>
+                            <form action="https://formspree.io/krista.triviso91@gmail.com" method="POST">
+                                <input type="text" class="col-xs-12 name" id='name' placeholder='Name' name='name'>
+                                <input type="text" class="col-xs-12 Email" id='email' placeholder='Email' name='email'>
+                                <input type="text" class="col-sm-12 col-xs-12 Subject" id='subject' name='subject' placeholder='Subject'/>
                                 <textarea type="text" class="col-sm-12 col-xs-12 Message" name='Message' placeholder='Tell Us More'></textarea>
-                                <div class="col-sm-12 submit-btn"><a href="#">Send Message</a></div>
+                                <input type="submit" value="send" name='submit' id="submit">
+                                <!-- <div class="col-sm-12 submit-btn"><a href="#">Send Message</a></div> -->
                             </form>
                         </div>
                     </div>
