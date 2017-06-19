@@ -16,17 +16,11 @@
         <!-- body font -->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-        <!-- diving div font -->
-
         <!-- Owl Carousel -->
          <link rel="stylesheet" href="css/owl.carousel.css" />
 
         <!-- the actual style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-
-        <!-- Jquery-->
-    	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-
 
 	</head>
 
@@ -38,10 +32,11 @@
         <ul>
             <li><a href="http://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             <li><a href="http://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="http://youtube.com"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
         </ul>
 
     </div>
+
     <!-- nav bar -->
 	<div class="default row col-sm-8">
 				
@@ -83,8 +78,8 @@
                     
                     <div class="row break-text" id="diving-div-styles-one">
                         <div class="col-sm-12">
-                            <h3 id="text-jq">PR Programming</h3>
-                            <p>A remote-based resource for anyone looking for specific exercise programming for their goals.</p>
+                            <h3>About Us</h3>
+                            <p>We have more to offer than just your average personal trainer</p>
                         </div>
                     </div>
 
@@ -112,23 +107,36 @@
                         </div>
                     </div>
 
-                    <!-- meet paul image -->
-                    <div class="col-sm-12 hover-me">
+                    <!-- bio for paul -->
+                    <div class= "col-sm-12" id="bio-img"></div>
 
-                        <!-- <img src="image/cfo-image.jpg" class="img-responsive" id="meet-paul-img"> -->
+                    
+                    <div class="wrapper col-sm-12" id="wrapper">
+                        <p class="">Paul grew up in a small town in Pennsylvania, where there was not much else to do but play sports, and that’s what he did. Being so involved with sports and fitness throughout his teenage years, he decided to pursue a career in the fitness industry. He received a Bachelor’s degree in Exercise Science and a Master’s in Exercise Physiology, and during that time, he fell in love with coaching and training for CrossFit, which he has been doing ever since.</p>
+                        <p class="">Paul has an obsessive passion for learning the latest techniques in strength and conditioning, and using them to help others achieve their goals. Coming from a very research-based education, he believes that anecdotal evidence or the “it worked for him so everyone should do it” methods are not good enough reasons to create training programs around. That’s why Paul bases his knowledge on scientifically researched and well-tested protocols.</p>
+                        <p class="">Paul spends his time coaching at CrossFit Outbreak in Brooklyn, New York, coaching classes and designing training programs for general clients and competitive athletes alike. Paul himself is a high level competitive CrossFit athlete, so he understands what it’s like to be the athlete and the coach, which he believes gives him an advantage over other coaches who do not realize the challenges that athletes are faced with on a daily basis.</p>
 
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mA06NsMb0-M" frameborder="0" muted autoplay poster="image/cfo-image.jpg"></iframe>
+                        <ul class="dots-wrap">
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                        </ul>
 
-                        <!-- <div class="bio-overlay">
-                            <div class="bio-text">
-                                Paul grew up involved with sports and fitness throughout his teenage year and decided to pursue a career in the fitness industry. He received a Bachelor’s degree in Exercise Science and a Master’s in Exercise Physiology, and during that time, he fell in love with coaching and training for CrossFit, to which he has been dedicated to ever since. Paul has an obsessive passion for learning the latest techniques in strength and conditioning and has successfully applied them to his training programs. Coming from a heavy research-based education, he believes that anecdotal evidence is simply not good enough. That’s why Paul bases his knowledge on scientifically researched and well-tested protocols. Paul spends his time as a coach at CrossFit Outbreak, coaching classes and designing training programs for general population clients and competitive athletes alike. Paul himself is a high-level competitive CrossFit athlete, so he understands what it’s like to be the athlete and the coach, which he believes his personal experience with the challenges athletes are faced with daily gives him an advantage.
-                            </div>
-                        </div> -->
                     </div>
 
-                     <!-- credentials-->
-                    <div>
-                        <h1 class="div-header-text">Credentials and Certifications</h1>
+                    <!-- meet paul image -->
+                    <div class="col-sm-12" id="video-section">
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mA06NsMb0-M" frameborder="0" muted autoplay></iframe>
+
+                    </div>
+
+
+                    <!-- credentials-->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1 class="div-header-text">Credentials and Certifications</h1>
+                        </div>
                     </div>
 
                     <div class="row" id="credentials">
@@ -140,7 +148,6 @@
                             <p>NSCA CSCS</p>
                         </div>
 
-                        <div class="w-100"></div>
 
                         <div class="col-sm-6 grid-item">
                             <p>CrossFit L1 Trainer</p>
@@ -152,28 +159,41 @@
                     </div>
 
                     <!-- shadowed images of paul -->
-
-                    <div>
-                        <h1 class="div-header-text">Services and Programming</h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1 class="div-header-text">Services and Programming</h1>
+                        </div>
                     </div>
 
                     <div class="row" id="paul-gallery">
                         <div class="col-sm-4 hover-me-tender">
                             <img class="img-responsive" src="image/pro-2.jpg">
                             <div class="overlay">
-                                <div class="text">TRAIN<br>Up to date on the latest techniques in strength and conditioning to create the more efficent physical programming</div>
+                                <div class="text">
+                                    <h1>TRAIN</h1>
+                                    <br>
+                                    <p> Inovative programming and techniques designed for strength and conditioning</p>
+                               </div>
                             </div>
                         </div>
                         <div class="col-sm-4 hover-me-tender">
-                            <img class="img-responsive" src="image/pro-4.jpg">
+                            <img class="img-responsive" src="image/pro-4.jpg" id="paul-middle">
                             <div class="overlay">
-                                <div class="text">EDUCATE<br>Scientific researched and well-tested protocols to create personal nutrtion plans that deliver results</div>
+                                <div class="text">
+                                    <h1>EDUCATE</h1>
+                                    <br>
+                                    <p>Scientific researched and well-tested protocols to create personal nutrtion plans that deliver results</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-4 hover-me-tender">
                             <img class="img-responsive" src="image/pro-6.jpg">
                             <div class="overlay">
-                                <div class="text">INSPIRE<br>Connecting the dots between where you are now and where you want to be.</div>
+                                <div class="text">
+                                    <h1>INSPIRE</h1>
+                                    <br>
+                                    <p>Connecting the dots between where you are now and where you want to be.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -223,61 +243,174 @@
                         <div class="col-sm-6  text-left">
                             <img class="img-responsive blog-styles-shared" src="image/girl-fighter.jpg"/>
                             <h3>This is the Blog title</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
-                            <hr class="hrNews">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <button type="button" class="blog-btn" data-toggle="modal" data-target=".bs-example-modal-sm">Read More...</button></p>
+                                <hr class="hrNews">
+
+                                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm" role="document">
+                                            <div class="modal-content">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
+
                             <div class="col-sm-6 text-right">
                             <img class="img-responsive blog-styles-shared" src="image/inspo.jpg"/>
                             <h3>This is the Blog title</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
-                            <hr>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <button type="button" class="blog-btn" data-toggle="modal" data-target=".bs-example-modal-sm">Read More...</button></p>
+                                <hr>
+
+                                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm" role="document">
+                                            <div class="modal-content">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
                         </div>
                     </div>
+
                     <div>
                         <div class="row">
                             <div class="col-sm-6 text-left">
                                 <img class="img-responsive blog-styles-shared" src="image/pro-7.jpg"/>
                                 <h3>This is the Blog title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <button type="button" class="blog-btn" data-toggle="modal" data-target=".bs-example-modal-sm">Read More...</button></p>
                                 <hr>
+
+                                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm" role="document">
+                                            <div class="modal-content">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
                                 <div class="col-sm-6 text-right">
                                 <img class="img-responsive blog-styles-shared" src="image/shoes-one.jpg"/>
                                 <h3>This is the Blog title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <button type="button" class="blog-btn" data-toggle="modal" data-target=".bs-example-modal-sm">Read More...</button></p>
                                 <hr>
+
+                                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm" role="document">
+                                            <div class="modal-content">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
+
                     <div>
                         <div class="row">
                             <div class="col-sm-6 text-left">
                                 <img class="img-responsive blog-styles-shared" src="image/cf-open.jpg"/>
                                 <h3 >This is the Blog title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <button type="button" class="blog-btn" data-toggle="modal" data-target=".bs-example-modal-sm">Read More...</button></p>
                                 <hr class="hrNews">
+
+                                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm" role="document">
+                                            <div class="modal-content">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
                                 <div class="col-sm-6 text-right">
                                 <img class="img-responsive blog-styles-shared" src="image/paul-5.jpg"/>
                                 <h3>This is the Blog title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <button type="button" class="blog-btn" data-toggle="modal" data-target=".bs-example-modal-sm">Read More...</button></p>
                                 <hr>
+
+                                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm" role="document">
+                                            <div class="modal-content">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-sm-6 text-right">
                             <img class="img-responsive blog-styles-shared" src="image/paul-2.jpg"/>
                             <h3>This is the Blog title</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
-                            <hr class="hrNews">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.
+                            <button type="button" class="blog-btn" data-toggle="modal" data-target=".bs-example-modal-sm">Read More...</button></p>
+                                <hr class="hrNews">
+
+                                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm" role="document">
+                                            <div class="modal-content">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
+
                             <div class="col-sm-6 text-left">
-                            <img class="img-responsive blog-styles-shared" src="image/girl-fit.jpg"/>
-                            <h3>This is the Blog title</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
-                            <hr class="hrNews">
-                        </div>
+                                <img class="img-responsive blog-styles-shared" src="image/girl-fit.jpg"/>
+                                <h3>This is the Blog title</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.
+                                <button type="button" class="blog-btn" data-toggle="modal" data-target=".bs-example-modal-sm">Read More...</button></p>
+                                <hr class="hrNews">
+
+                                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm" role="document">
+                                            <div class="modal-content">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
                     </div>
 
 
@@ -298,7 +431,6 @@
                                 <input type="text" class="col-sm-12 col-xs-12 Subject" id='subject' name='subject' placeholder='Subject'/>
                                 <textarea type="text" class="col-sm-12 col-xs-12 Message" name='Message' placeholder='Tell Us More'></textarea>
                                 <input type="submit" value="send" name='submit' id="submit">
-                                <!-- <div class="col-sm-12 submit-btn"><a href="#">Send Message</a></div> -->
                             </form>
                         </div>
                     </div>
@@ -322,14 +454,14 @@
                     </div>
 
                     <footer><i class="fa fa-arrow-up" aria-hidden="true"></i><br><a href="#logo-img">BACK TO THE TOP</a></footer>
-                <!-- yo this shit ends it allllll -->
                 </div> 
              </div> 
         </div>
 
         <!-- jquery script tag -->
-    	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-
+          <!-- Jquery-->
+        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        
     	<script src="js/bootstrap.min.js"></script>
 
         <script type="text/javascript" src="js/owl.carousel.js"></script>
