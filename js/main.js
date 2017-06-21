@@ -55,15 +55,46 @@ $(document).ready(function(){
 
     }, 500);
 
+
+
     // this is the styling for the mobile and scrolling fixed nav bar on the top
+    //  $(window).load(function(){
+
+    //     var windowWidth = $( window ).width();
+    //     console.log($( window ).width());
+
+    //     if (windowWidth < 768) {
+    //        $('#on-scroll-space').css('background-color', 'pink');
+    //        $('.menu').css('display', 'show');
+    //     } else {
+
+    //     }
+
+    // });
+
+    $(window).load(function(){
+
+        var menuSetting = $(window).scrollTop();
+        var windowWidth = $( window ).width();
+
+        if (windowWidth < 768) {
+            $('.menu').addClass('mobile-nav');
+            // $('#on-scroll-space').removeAttr('id');
+            // $('#on-scroll-space').addClass('icon-bottom');
+        } else {
+            
+        }
+
+    });
 
 
 
     $(window).scroll(function(){
 
         var menuSetting = $(window).scrollTop();
+        var windowWidth = $( window ).width();
 
-        if (menuSetting > 30) {
+        if (menuSetting > 30 && windowWidth > 768) {
             $('#nav').removeClass('menu').addClass('menu-scroll');
             $('#on-scroll-space').animate({
                 height: '50px'
@@ -74,25 +105,8 @@ $(document).ready(function(){
             $('#on-scroll-space').css('z-index', '0');
         }
 
+
     });
-
-    var wordsArray = [
-            'Exercise Regiments',
-            'Nutritonal Plans',
-            'Motivation',
-            'Research Based Programming',
-            'Inspiration',
-            'Networking'
-        ];
-
-    function wordAnimation(){
-        wordsArray.forEach(function(word){
-            $('#words').text(word);
-        });
-    }
-
-wordAnimation();
-
 
     // for the bio slides about paul
     var commentSlider = {
@@ -209,25 +223,5 @@ wordAnimation();
 //initializes the entire thing by calling the init function  
 $(document).ready(commentSlider.init);
 
-
-
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
